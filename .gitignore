@@ -1,0 +1,26 @@
+# Python & Django files
+*.pyc
+*~
+__pycache__
+*.log
+
+# Enviroment files
+.env
+
+
+# Virtual Env folder (Python)
+rd-env/
+
+
+# Node modules
+node_modules/
+
+# Database
+db.sqlite3
+
+# Others
+.DS_Store
+.vscode
+.idea
+entrypoint.sh
+migrations/
