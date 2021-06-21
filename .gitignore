@@ -6,14 +6,27 @@ __pycache__
 
 # Enviroment files
 .env
-
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
 
 # Virtual Env folder (Python)
 rd-env/
 
 
-# Node modules
+# Node modules & dependencies
 node_modules/
+/node_modules
+/.pnp
+.pnp.js
+
+# testing
+/coverage
+
+# production
+/build
+
 
 # Database
 db.sqlite3
@@ -23,4 +36,7 @@ db.sqlite3
 .vscode
 .idea
 entrypoint.sh
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
 migrations/
