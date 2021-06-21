@@ -1,10 +1,18 @@
 # Create/activate the virtual enviroment:
 
 ## ◼️ Create
-Run the command `python -m venv ${virtualEnvName}` where **${virtualEnvName}** is the desired name for your virtual enviroment
+Run the command 
+```
+python -m venv ${virtualEnvName}
+```
+where **${virtualEnvName}** is the desired name for your virtual enviroment
 
 ## ◼️ Activate
-Once created, (at project root level) activate the virtual env with the command `source ${virtualEnvName}/Scripts/activate}` where **${virtualEnvName}** is the name you given to your virtual enviroment
+Once created, (at project root level) activate the virtual env with the command 
+```
+source ${virtualEnvName}/Scripts/activate}
+```
+where **${virtualEnvName}** is the name you given to your virtual enviroment
 
 
 <p>&nbsp;</p><p>&nbsp;</p>
@@ -40,8 +48,15 @@ Do not forgot to add this app to your **INSTALLED_APPS** variable inside `${proj
 
 Whenever you make changes to the models, you should:
 
-1) Generate a migrations file with: `python manage.py makemigrations ${yourApp}`
+1) Generate a migrations file with: 
+```
+python manage.py makemigrations ${yourApp}
+```
 
-2) Then apply the migrations to the DB with: `python manage.py migrate ${yourApp}`
+2) Then, apply the migrations to the DB with: 
+```
+python manage.py migrate ${yourApp}
+```
+
 
 In both commands, **${yourApp}** is the name of the Django app
